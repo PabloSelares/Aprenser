@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Viaoda+Libre&display=swap');
+body{
+ 
+    margin: 0;
+    padding:0;
+}
+.top{
+    
+    display: flex;
+    background-color: rgb(33, 32, 32);  
+     padding: 16px;
+    justify-content: space-between;
+
+}
+.menu-nav ul{
+    margin: 30px;
+    display: flex;
+    list-style-type: none;
+    gap: 26px;
+}
+.menu-nav a {
+    padding: 20px ;
+    color: rgb(243, 203, 5);
+    text-decoration: none;
+    border-radius: 6px;
+    border-bottom: 2px solid;
+    margin-right: 20px;
+ 
+}
+.top .menu-nav a:hover{
+    border-bottom: 2px 
+}
+.aprenser{
+    padding: 0 200px 20px;
+}
+.mid{ 
+
+  
+    height: 700px;
+    margin: 0;
+    padding: 1px;
+    background-image: linear-gradient(to top, #efe81f 29%, #fffef0 86%);
+}  
+.mid-photo{
+  
+  margin: 50px 100px;
+    float: right;
+    transform: translateX(100%);
+    transition: transform 1s ease-in-out;
+}
+
+.mid-photo.show {
+    transform: translateX(0);
+} 
+.mid .text-mid{
+    padding: 100px;
+    font-size: 80px;
+    text-justify: kashida;
+    transform: translateX(-100%);
+    transition: transform 1.5s ease-in-out;
+}
+
+.text-mid.show {
+    transform: translateX(0);
+
+}
+.more a {
+    font-size: 30px;
+    text-decoration: none;
+    padding: 1px 0 ;
+  margin: 100px ;
+color: rgb(104, 97, 97);
+border-radius: 6px;
+border-bottom: 2px solid;
+
+}
+.more a:hover{
+    border-bottom: 2px;
+    
+}
+
+.main{
+    background-color: #fffef0;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    padding: 50px 300px;
+    display: flex;
+    gap: 50px;
+ }
+
+    .box{
+        background-color: #fffef0;
+        padding-bottom: 20px;
+        border-radius: 8px;
+        transition: transform 0.3s ease-in-out; /* Add transition for smooth zoom effect */
+}
+.box:hover{
+    transform: scale(1.05); /* Apply zoom effect on hover */
+}
+.sub{
+    text-align: center;
+    padding: 70px;
+}
+.sub a{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 5px solid yellow;
+}
+ .sub a:hover{
+    border-bottom: 2px;
+ }
+.main .refs{
+    text-align: justify;
+    text-justify: inter-word;
+
+
+}
+.eye {
+    text-align: center;
+
+}
+.eye a{
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+   
+    border-bottom: 5px solid yellow;
+}
+.eye a:hover{
+    border-bottom: 2px;
+
+}
+.mid-final{
+    background-color: rgb(26, 72, 153);
+}
+.nossa{
+  max-width: 127.6rem;
+  margin: auto;
+
+}
+.mid-final{
+  height: 800px;
+
+}
+.ini{
+    font-size: 40px;
+    padding: 50px 400px;
+    text-align: right;
+    color: #fffef0;
+}
+.final{
+  
+    height: 600px;
+    display: flex;
+    padding: 50px;
+}
+.intro{
+    font-size: 40px;
+    padding: 40px;
+    text-align: justify;
+    color: #fffef0;
+
+
+}
+.contatos{
+    text-align: center;
+    padding: 100px 700px;
+}
+.contatos a{
+    
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+   
+    border-bottom: 5px solid yellow;
+}
+
+.contatos a:hover{
+    border-bottom: 2px;
+
+}
+.contat{
+    font-size: 10px;
+    background-color: rgba(0, 0, 0, 0.77);
+    text-align: center;
+    color: #fffef0;
+    height: 200px;
+}
+.contat h1{
+    padding: 100px
+}
+@media (max-width: 768px) {
+    .top {
+      flex-direction: column;
+      padding: 8px;
+    }
+  
+    .menu-nav ul {
+      margin: 0;
+      flex-direction: column;
+      gap: 10px;
+    }
+}
+
